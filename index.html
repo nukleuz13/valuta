@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Выберите действие</h1>
+        <button onclick="redirectToConverter()">Конвертер валют</button>
+        <button onclick="redirectToExchangeRates()">Текущие курсы валют</button>
+    </div>
+
+    <script>
+        function redirectToConverter() {
+            window.location.href = 'converter.html';
+        }
+
+        function redirectToExchangeRates() {
+            window.location.href = 'exchange-rates.html';
+        }
+    </script>
+</body>
+</html>
+
+
